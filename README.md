@@ -7,8 +7,7 @@ PHP bindings for the Nylas REST API [https://www.nylas.com](https://www.nylas.co
 You can install the library by running:
 
 ```php
-cd nylas-php
-composer install
+composer require o323/nylas-php
 ```
 
 
