@@ -4,13 +4,12 @@ namespace Nylas\Models;
 
 use Nylas\NylasAPIObject;
 
-
-class Account extends NylasAPIObject {
-
+class Account extends NylasAPIObject
+{
     public $collectionName = 'account';
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
-
 }
